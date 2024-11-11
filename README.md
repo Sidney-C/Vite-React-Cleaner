@@ -1,0 +1,5 @@
+This is a Python script intended to speed up the creation of React.js projects using Vite by deleting unnecessary placeholder files. The user can also automatically include the popular free and open-source Bootstrap 5 framework in their project.
+
+To use the script, simply run it from the command line in the directory in which you would like to create your project, followed by either "-n" or "--name" and the name of your project. If you wish to use Bootstrap 5, also type "-f" or "--framework" followed by "bootstrap".
+
+For example, typing "python reactcleaner.py -n frontend -f bootstrap" would initialise a React.js project using Vite in a new directory called "frontend", with the index.html file including links to Bootstrap 5 and a main.jsx file that renders only a simple "Hello World" heading. This saves time if you want to start building your site from scratch without removing the placeholder code and assets in a regular Vite project, and without having to manually add Bootstrap 5. Please note that while the framework argument is purely optional, you must include a name, and the name must not include whitespace.
